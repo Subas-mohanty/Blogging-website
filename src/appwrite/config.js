@@ -87,7 +87,7 @@ export class Service{
         }
     }
     getFilePreview(fileId){
-        return this.bucket.getFilePreview(conf.bucketId, fileId, );
+        return this.bucket.getFilePreview(conf.bucketId, fileId);
     }
 }
 
