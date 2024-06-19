@@ -7,7 +7,7 @@ import Button from "./Button";
 import Login from "./Login";
 import Select from "./Select";
 import Input from "./Input"
-
+import RTE from "./RTE";
 export {
     Header,
     Footer,
@@ -17,5 +17,6 @@ export {
     Button,
     Login,
     Select,
-    Input
+    Input,
+    RTE
 }
