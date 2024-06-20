@@ -45,14 +45,13 @@ function Signup() {
 
             <form onSubmit={handleSubmit(create)}>
                 <div className='space-y-5'>
-
-                    <input
-                     label = "Full Name: "
+                    
+                    <input 
+                    label = "Full Name: "
                      placeholder='Enter your full name'
-                     {...register("name"), {
-                        required: true
-                     }}
-                    />
+                     {...register("name",{
+                        required : true
+                     }) }/>
 
                     <input label = "Email: "
                     placeholder='Enter your email'

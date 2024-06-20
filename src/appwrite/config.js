@@ -1,8 +1,8 @@
-import { Account, Client, ID, Databases } from "appwrite";
+import { Account, Client, ID, Databases, Storage } from "appwrite";
 import { conf } from "../conf/conf";
 
 export class Service{
-    client = new Client();
+    client;
     bucket;
     databases;
 
